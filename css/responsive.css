@@ -1,0 +1,46 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#quote{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#quote::before{
+    height: 480px; 
+}
+
+#quote p{
+    font-size: 13px;
+}
+
+#row1,#row2,#row3{
+    flex-direction: column;
+}
+
+#row1 .typedoc,#row2 .typedoc,#row3 .typedoc{ 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{ 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+#contact-box form{
+    width:80%;
+}
